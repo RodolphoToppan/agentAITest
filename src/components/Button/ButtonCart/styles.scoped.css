@@ -1,0 +1,36 @@
+.button-cart {
+  max-width: 30px;
+  position: relative;
+}
+.button-cart__icon >>> path {
+  transition: 250ms;
+}
+.button-cart__number {
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 0;
+
+  min-height: 15px;
+  max-height: 15px;
+  min-width: 15px;
+  padding: 0 3px 0 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+
+  background: #2391E1;
+  border-radius: 4px;
+  color: #ffffff;
+  pointer-events: none;
+}
+@media(min-width: 1024px) {
+  .button-cart:hover .button-cart__icon >>> path {
+    fill: #2391E1;
+  }
+}

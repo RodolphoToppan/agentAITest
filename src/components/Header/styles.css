@@ -1,0 +1,206 @@
+/* BUSCA: CONTAINER */
+#header .header-search {
+  flex: 1;
+  position: relative;
+}
+@media(min-width: 1024px) {
+  #header .header-search {
+    max-width: 626px;
+  }
+}
+
+/* BUSCA: INPUT */
+#header .header-search form input {
+  border: 1px solid #27348B;
+  background: #ffffff;
+  border-radius: 8px;
+  color: #525252;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  outline: none;
+  padding: 14px 94px 14px 16px;
+  transition: 250ms;
+  width: 100%;
+  position: relative;
+}
+#header .header-search form input:focus {
+  box-shadow: 0 0 0 4px #27348B20;
+}
+#header .header-search form input::placeholder {
+  color: #969696;
+}
+@media (min-width: 1024px) {
+  #header .header-search form input {
+    padding: 14px 116px 14px 16px;
+  }
+}
+
+/* BUSCA: BOTÃO */
+#header .header-search .slideBusca-containerBtns {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 8px 8px 0;
+  overflow: hidden;
+  height: 100%;
+}
+#header .header-search .slideBusca-containerBtns button {
+  transition: 250ms;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 22px;
+  background-color: #27348B;
+  color: #FFFFFF;
+  height: 100%;
+}
+@media (min-width: 1024px) {
+  #header .header-search .slideBusca-containerBtns button {
+    padding: 14px 30px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  #header .header-search .slideBusca-containerBtns button:hover {
+    background-color: #0f195a;
+  }
+}
+
+/* BUSCA SUGESTÕES: CONTAINERS */
+#header .header-containerBusca-sugestoes {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 8px);
+  transition: 250ms;
+  width: 100%;
+  z-index: 1;
+}
+#header .header-containerBusca-sugestoes-wrapper {
+  overflow: hidden;
+}
+#header .header-containerBusca-sugestoes-holder {
+  border-radius: 8px;
+  border: 1px solid #27348B;
+  background-color: #ffffff;
+  padding: 8px 8px 23px;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+@media (min-width: 1024px) {
+  #header .header-containerBusca-sugestoes {
+    max-width: calc(100% - 98.92px);
+  }
+  #header .header-containerBusca-sugestoes-holder {
+    padding: 16px;
+    flex-direction: row;
+  }
+}
+
+/* BUSCA SUGESTÕES: SUGESTÕES */
+.header-containerBusca-sugestoes-textos {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #E7E7E7;
+  margin-bottom: 8px;
+}
+.header-containerBusca-sugestoes-textos__title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #585757;
+}
+.header-containerBusca-sugestoes-textos__list {
+  margin-top: 8px;
+}
+.header-containerBusca-sugestoes-textos__list-item {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  cursor: pointer;
+}
+.header-containerBusca-sugestoes-textos__list-item + .header-containerBusca-sugestoes-textos__list-item {
+  margin-top: 4px;
+}
+@media(min-width: 1024px) {
+  .header-containerBusca-sugestoes-textos {
+    padding-bottom: 0;
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-right: 15px;
+    margin-right: 15px;
+    border-right: 1px solid #E7E7E7;
+    min-width: 131px;
+  }
+  .header-containerBusca-sugestoes-textos__list-item:hover {
+    text-decoration: underline;
+  }
+}
+
+/* BUSCA SUGESTÕES: GRID DE PRODUTOS */
+#header .header-containerBusca-sugestoes-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#header .header-containerBusca-sugestoes-box-item > a {
+  align-items: initial;
+  display: flex;
+  gap: 4px;
+  transition: 250ms;
+}
+#header .header-containerBusca-sugestoes-box-imgBox {
+  aspect-ratio: 1 / 1;
+  min-width: 60px;
+  max-width: 60px;
+}
+#header .header-containerBusca-sugestoes-box-imgBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+#header .header-containerBusca-sugestoes-infoBox {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+#header .header-containerBusca-sugestoes-box-infoBox-nome {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #525252;
+  margin: 0;
+  width: 100%;
+  min-height: 36px;
+}
+.header-containerBusca-sugestoes-box-infoBox-containerPrecos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 8px;
+}
+#header .header-containerBusca-sugestoes-box-infoBox-preco {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.3px;
+  text-align: left;
+  color: #525252;
+}
+#header .header-containerBusca-sugestoes-box-infoBox-precoDe {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.58px;
+  color: #9B9B9B;
+  text-decoration: line-through;
+}
+@media(min-width: 1024px) {
+  #header .header-containerBusca-sugestoes-box-item > a:hover .header-containerBusca-sugestoes-box-infoBox-nome{
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,20 @@
+0000000000000000000000000000000000000000 e75053782ec2e72fba039f9f6111cc1e27b407d6 rodolpho.toppan <rodolpho.toppan@db1.com.br> 1739972138 -0300	clone: from https://gitlab.com/agenciawebart/usuarios/clientes/mobiis/mobiis_v2.git
+e75053782ec2e72fba039f9f6111cc1e27b407d6 965b3ab636ddee832ed62df340c0704777e6ace8 rodolpho.toppan <rodolpho.toppan@db1.com.br> 1739976855 -0300	commit: feature: add initial project structure with Nuxt.js setup
+965b3ab636ddee832ed62df340c0704777e6ace8 e75053782ec2e72fba039f9f6111cc1e27b407d6 rodolpho.toppan <rodolpho.toppan@db1.com.br> 1739976947 -0300	reset: moving to HEAD~
+e75053782ec2e72fba039f9f6111cc1e27b407d6 e75053782ec2e72fba039f9f6111cc1e27b407d6 rodolpho.toppan <rodolpho.toppan@db1.com.br> 1739976974 -0300	checkout: moving from main to homolog
+e75053782ec2e72fba039f9f6111cc1e27b407d6 fce90c21c5acdeb50b3885782c9f709697809d92 rodolpho.toppan <rodolpho.toppan@db1.com.br> 1739976986 -0300	commit: feature: add initial project structure with Nuxt.js setup
+fce90c21c5acdeb50b3885782c9f709697809d92 ab14c99eb28c98c06ebaf13ca251853e2838a743 rodolpho.toppan <rodolpho.toppan@db1.com.br> 1739985252 -0300	pull --tags origin homolog: Fast-forward
+ab14c99eb28c98c06ebaf13ca251853e2838a743 dccd722fca362b760aedfdf23a2c3e94959af6ba rodolpho.toppan <rodolpho.toppan@db1.com.br> 1739993667 -0300	checkout: moving from homolog to feature/create-header
+dccd722fca362b760aedfdf23a2c3e94959af6ba b99d1487b8d34a0a64dc41a5a451a5010a303adc rodolpho.toppan <rodolpho.toppan@db1.com.br> 1740050897 -0300	commit: feature: refactor MainHeader component and add pitchbar state management
+b99d1487b8d34a0a64dc41a5a451a5010a303adc b99d1487b8d34a0a64dc41a5a451a5010a303adc rodolpho.toppan <rodolpho.toppan@db1.com.br> 1740051053 -0300	checkout: moving from feature/create-header to feature/create-header
+b99d1487b8d34a0a64dc41a5a451a5010a303adc b99d1487b8d34a0a64dc41a5a451a5010a303adc rodolpho.toppan <rodolpho.toppan@db1.com.br> 1740056068 -0300	reset: moving to HEAD
+b99d1487b8d34a0a64dc41a5a451a5010a303adc e75053782ec2e72fba039f9f6111cc1e27b407d6 rodolpho.toppan <rodolpho.toppan@db1.com.br> 1740056091 -0300	checkout: moving from feature/create-header to main
+e75053782ec2e72fba039f9f6111cc1e27b407d6 e75053782ec2e72fba039f9f6111cc1e27b407d6 rodolpho.toppan <rodolpho.toppan@db1.com.br> 1740057911 -0300	checkout: moving from main to homolog-migration
+e75053782ec2e72fba039f9f6111cc1e27b407d6 14e74b77b69762d24c6a5c63fdaaa1d2cfdd863d rodolpho.toppan <rodolpho.toppan@db1.com.br> 1740057964 -0300	commit: Initialize Nuxt.js application with basic configuration and structure
+14e74b77b69762d24c6a5c63fdaaa1d2cfdd863d 6b8887390f80f0c952f96701ca7fbd9df97549c8 rodolpho.toppan <rodolpho.toppan@db1.com.br> 1740058091 -0300	commit: Add README files to creates packages
+6b8887390f80f0c952f96701ca7fbd9df97549c8 ab14c99eb28c98c06ebaf13ca251853e2838a743 rodolpho.toppan <rodolpho.toppan@db1.com.br> 1740058380 -0300	checkout: moving from homolog-migration to homolog
+ab14c99eb28c98c06ebaf13ca251853e2838a743 ac1f30eb865d8cbe86c9a0aed5d2ed82272f1017 rodolpho.toppan <rodolpho.toppan@db1.com.br> 1740058389 -0300	pull: Fast-forward
+ac1f30eb865d8cbe86c9a0aed5d2ed82272f1017 e75053782ec2e72fba039f9f6111cc1e27b407d6 rodolpho.toppan <rodolpho.toppan@db1.com.br> 1740058851 -0300	checkout: moving from homolog to main
+e75053782ec2e72fba039f9f6111cc1e27b407d6 ac1f30eb865d8cbe86c9a0aed5d2ed82272f1017 rodolpho.toppan <rodolpho.toppan@db1.com.br> 1740058903 -0300	checkout: moving from main to homolog
+ac1f30eb865d8cbe86c9a0aed5d2ed82272f1017 aa6b31afa5b1eb7d1f24bf90e18f3a12683a6577 rodolpho.toppan <rodolpho.toppan@db1.com.br> 1740058912 -0300	pull: Fast-forward
+aa6b31afa5b1eb7d1f24bf90e18f3a12683a6577 b99d1487b8d34a0a64dc41a5a451a5010a303adc rodolpho.toppan <rodolpho.toppan@db1.com.br> 1740071802 -0300	checkout: moving from homolog to feature/create-header

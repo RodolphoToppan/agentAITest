@@ -1,0 +1,193 @@
+.navigation-item__holder-subs {
+  border: 1px solid #E7E7E7;
+  background-color: #F7F7F7;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-template-rows: 100%;
+  min-height: 434px;
+  max-height: 434px;
+}
+
+/* TYPEEXPANDABLE: COLUNA ESQUERDA LVL2 */
+.navigation-item__subs-two-wrapper {
+  padding: 24px 20px;
+  border-right: 1px solid #E7E7E7;
+  background-color: #FFFFFF;
+  display: grid;
+  grid-template-rows: max-content 1fr;
+}
+.navigation-item__subs-two-list {
+  display: flex;
+  flex-direction: column;
+  min-width: 212px;
+  max-width: 290px;
+  overflow-y: auto;
+  padding: 0 20px;
+}
+.navigation-item__subs-two-list::-webkit-scrollbar {
+  width: 4px;
+}
+.navigation-item__subs-two-list::-webkit-scrollbar-track {
+  background-color: #ece7e7;
+  border-radius: 2px;
+}
+.navigation-item__subs-two-list::-webkit-scrollbar-thumb {
+  background-color: #585757;
+  border-radius: 2px;
+}
+.navigation-item__subs-two-list__item {
+  display: block;
+  padding: 4px 0;
+}
+.navigation-item__subs-two-list__item__text {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+a.navigation-item__subs-two-list__item__text:hover > span {
+  font-weight: 700;
+}
+.navigation-item__subs-two-list__item__text > span {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #585757;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: inherit;
+}
+.navigation-item__subs-two-list__item__text > span::before {
+  content: attr(data-label);
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+.navigation-item__subs-two-list__item__text > svg {
+  flex-shrink: 0;
+}
+.current .navigation-item__subs-two-list__item__text > span {
+  font-weight: 700;
+}
+.current .navigation-item__subs-two-list__item__text > svg {
+  transform: rotate(180deg);
+}
+
+/* TYPEEXPANDABLE: COLUNA DIREITA LVL3 */
+.navigation-item__subs-three-wrapper {
+  padding: 24px 40px;
+  display: flex;
+  gap: 23px;
+  min-width: 570px;
+}
+.navigation-item__subs-three-left {
+  flex-grow: 1;
+  flex-basis: 500px;
+  display: grid;
+  grid-template-rows: max-content 1fr;
+}
+.navigation-item__subs-three-top__title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #585757;
+}
+.navigation-item__subs-three-top__link {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #969696;
+  text-decoration: underline;
+}
+a.navigation-item__subs-three-top__link:hover {
+  color: #27348B;
+}
+.navigation-item__subs-three-list-wrapper {
+  margin-top: 16px;
+  overflow-y: auto;
+  padding-right: 20px;
+}
+.navigation-item__subs-three-list-wrapper::-webkit-scrollbar {
+  width: 4px;
+}
+.navigation-item__subs-three-list-wrapper::-webkit-scrollbar-track {
+  background-color: #ece7e7;
+  border-radius: 2px;
+}
+.navigation-item__subs-three-list-wrapper::-webkit-scrollbar-thumb {
+  background-color: #585757;
+  border-radius: 2px;
+}
+.navigation-item__subs-three-list {
+  column-count: 4;
+}
+.navigation-item__subs-four-wrapper {
+  break-inside: avoid;
+  padding-bottom: 16px;
+}
+.navigation-item__subs-four-top__title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #585757;
+  cursor: default;
+}
+.navigation-item__subs-four-list {
+  margin-top: 8px;
+}
+.navigation-item__subs-four-list__item-wrapper + .navigation-item__subs-four-list__item-wrapper {
+  margin-top: 8px;
+}
+.navigation-item__subs-four-list__item {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #585757;
+}
+a.navigation-item__subs-four-list__item:hover {
+  color: #27348B;
+  text-decoration: underline;
+}
+.navigation-item__subs-four-list__item.see-all {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #969696;
+  text-decoration: underline;
+}
+a.navigation-item__subs-four-list__item.see-all:hover {
+  color: #27348B;
+}
+
+/* TYPEEXPANDABLE: BANNER */
+.navigation-item__subs-three-right {
+  max-width: 300px;
+}
+
+.navigation-item__subs-three-withour-four-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.navigation-item__subs-three-withour-four__item {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #585757;
+}
+
+.transition-sub-enter-active,
+.transition-sub-leave-active {
+  transition: 100ms;
+}
+.transition-sub-enter,
+.transition-sub-leave-active {
+  transform: translateX(8px);
+  opacity: 0;
+}

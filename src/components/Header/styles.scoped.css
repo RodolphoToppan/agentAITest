@@ -1,0 +1,65 @@
+.header {
+  position: sticky;
+  top: 0;
+  padding: 0;
+  width: 100%;
+  z-index: 99;
+}
+.header.up-index {
+  z-index: 100;
+}
+.header-wrapper-background {
+  position: relative;
+  background-color: #ffffff;
+  border-bottom: 1px solid #E7E7E7;
+}
+.header-wrapper {
+  margin: 0 auto;
+  max-width: 1240px;
+  padding: 0 20px;
+  padding-bottom: 15px;
+}
+@media (min-width: 1024px) {
+  .header-wrapper {
+    padding-bottom: 0;
+  }
+}
+
+/* HEADER: LINHA UM COM LOGO E AÇÕES  */
+.header-line-one {
+  align-items: center;
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.header-left-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header-button-menu {
+  flex-shrink: 0;
+}
+.header-logo {
+  max-width: 141.86px;
+}
+.header-actions {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  gap: 8px;
+  position: relative;
+  z-index: 2;
+}
+@media (min-width: 1024px) {
+  .header-line-one {
+    padding: 20px 16px 16px;
+  }
+  .header-logo {
+    max-width: 200px;
+  }
+  .header-actions {
+    gap: 16px;
+  }
+}

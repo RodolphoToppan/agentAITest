@@ -1,0 +1,44 @@
+.navigation {
+  display: block;
+}
+.navigation__container {
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+}
+
+/* NAVIGATION: BARRA PRINCIPAL ITENS LVL1 */
+.navigation__list {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  justify-content: space-between;
+  position: relative;
+}
+.navigation__list-item-wrapper {
+  display: block;
+  flex: 1;
+  min-width: fit-content;
+}
+.navigation__list-item-wrapper.relative {
+  position: relative;
+}
+.navigation__list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 9px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #585757;
+  transition: 250ms;
+  white-space: nowrap;
+}
+.navigation__list-item.with-icon {
+  padding: 5px 24px;
+}
+.navigation__list-item-wrapper:hover .navigation__list-item {
+  background-color: #F7F7F7;
+}
