@@ -1,0 +1,13 @@
+.pitchbar__slick .pitchbar__slider-item-wrapper,
+.pitchbar__slick .pitchbar__slider-item-wrapper span,
+.pitchbar__slick .pitchbar__slider-item-link,
+.pitchbar__slick .slick-slide > div {
+  height: 100%;
+}
+.pitchbar__slick .slick-track {
+  display: flex !important;
+  margin: auto;
+}
+.pitchbar__slick .slick-track .slick-slide {
+  height: auto;
+}

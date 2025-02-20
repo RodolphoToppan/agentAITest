@@ -1,0 +1,2 @@
+0000000000000000000000000000000000000000 dccd722fca362b760aedfdf23a2c3e94959af6ba rodolpho.toppan <rodolpho.toppan@db1.com.br> 1739993667 -0300	branch: Created from refs/remotes/origin/feature/create-header
+dccd722fca362b760aedfdf23a2c3e94959af6ba b99d1487b8d34a0a64dc41a5a451a5010a303adc rodolpho.toppan <rodolpho.toppan@db1.com.br> 1740050897 -0300	commit: feature: refactor MainHeader component and add pitchbar state management

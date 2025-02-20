@@ -1,0 +1,38 @@
+.navigation.no-pointer-events {
+  pointer-events: none;
+}
+.navigation.no-pointer-events > .navigation__container .navigation__list .navigation-item__container-subs {
+  pointer-events: none;
+}
+.navigation__list li,
+.navigation__list span,
+.navigation__list a {
+  display: block;
+}
+.navigation__list span {
+  cursor: default;
+}
+
+/* NAVIGATION: CONTAINERS DOS SUBITEMS E CLASSES ABRIR/FECHAR */
+.navigation-item__container-subs {
+  top: 100%;
+  position: absolute;
+  overflow: hidden;
+  opacity: 0;
+  transform: translate3d(0, -8px, 0);
+  transition: 250ms;
+  pointer-events: none;
+  width: 100%;
+}
+.navigation-item__container-subs.left {
+  left: -20px;
+}
+.navigation-item__container-subs.right {
+  right: -100px;
+}
+.navigation__list-item-wrapper:hover .navigation-item__container-subs {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  pointer-events: initial;
+}
+

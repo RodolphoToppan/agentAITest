@@ -1,0 +1,19 @@
+{
+  "name": "@wapstore/busca",
+  "version": "1.6.4",
+  "description": "Um componente padrão com campo de busca",
+  "main": "busca.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/agenciawebart/packages/js/componentes-vuejs/busca.git"
+  },
+  "author": "Felipe Chada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/agenciawebart/packages/js/componentes-vuejs/busca/issues"
+  },
+  "homepage": "https://gitlab.com/agenciawebart/packages/js/componentes-vuejs/busca#readme"
+}
